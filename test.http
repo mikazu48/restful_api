@@ -1,0 +1,12 @@
+### Get all categories 
+GET http://localhost:3000/api/categories
+Accept : application/json
+
+### Create new category
+POST http://localhost:3000/api/categories
+Accept : application/json
+Content-Type:  : application/json
+
+{
+    "name" : "Gadget"
+}
